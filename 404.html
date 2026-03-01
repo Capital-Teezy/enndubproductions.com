@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REDACTED</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #444;
+            /* Dim, like a basement light */
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .warning {
+            font-size: 12px;
+            letter-spacing: 8px;
+            border: 1px solid #222;
+            padding: 20px;
+            animation: flicker 2s infinite;
+        }
+
+        @keyframes flicker {
+
+            0%,
+            19%,
+            21%,
+            23%,
+            25%,
+            54%,
+            56%,
+            100% {
+                opacity: 1;
+            }
+
+            20%,
+            22%,
+            24%,
+            55% {
+                opacity: 0.2;
+            }
+        }
+
+        a {
+            margin-top: 30px;
+            color: #888;
+            text-decoration: none;
+            font-size: 10px;
+            letter-spacing: 2px;
+        }
+
+        a:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="warning">
+        ACCESS DENIED<br><br>
+        WRONG NEIGHBORHOOD, TIKTOK.
+    </div>
+
+    <a href="/">← BACK TO THE SHADOWS</a>
+
+</body>
+
+</html>
