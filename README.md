@@ -11,7 +11,6 @@ Deployment: GitHub Pages / Vercel
 
 🏃‍♂️ How to Run Locally
 Clone the repo:
-git clone https://Capital-Teezy/Teezy/enndubproductions.git
 
 Open index.html in your browser (or run npm start if using a framework).
 
